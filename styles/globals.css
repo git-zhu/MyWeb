@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 antialiased;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'SF Pro Text',
+    'Segoe UI', sans-serif;
+}
+
+a {
+  @apply transition-colors duration-200;
+}
+
+.page-shell {
+  @apply mx-auto flex min-h-screen max-w-5xl flex-col px-4;
+}
+
+.page-main {
+  @apply flex-1 py-8;
+}
+
+.page-footer {
+  @apply border-t py-4 text-center text-xs text-slate-500;
+}
+
