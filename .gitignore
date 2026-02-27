@@ -1,1 +1,29 @@
+### Node / Next.js build artifacts
 node_modules
+.next
+out
+.turbo
+dist
+coverage
+
+### Local tooling / IDE
+.cursor
+.shared
+.vscode
+.idea
+
+### Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.development.local
+.env.test.local
+.env.production.local
+
+### OS / misc
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
